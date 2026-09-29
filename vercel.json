@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://spx.com.br/shipment/order/open/order/$1"
+    }
+  ]
+}
